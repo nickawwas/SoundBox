@@ -8,7 +8,7 @@ const queue = async (msg, args, musicQ) => {
         return msg.channel.send(content);
 
     musicQ.push(content);
-    msg.channel.send(`Enqueued:  ${content.title}!`);
+    msg.channel.send(`Enqueued:  **${content.title}** !\n${content.url}`);
 }
 
 export default queue;
