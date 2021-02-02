@@ -18,6 +18,7 @@ const fav = async (msg, args, playlist, musicQ) => {
     msg.channel.send(`Enqueued a Favorite:  ${playlist[i].alias}!`);
 }
 
+//Add Favorite Song to Favorite List
 const adfav = async (msg, args, playlist) => {
     const fav = args.join(' ');
     const [found, content] = await search(args);

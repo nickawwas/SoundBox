@@ -1,8 +1,8 @@
-import { dispatcher } from './play.js';
+import { disp } from './play.js';
 
 //Resume Paused YouTube Video in Voice Channel
 const resume = msg => {
-    dispatcher.resume();
+    disp.resume();
     msg.channel.send(`Resumed!`);
 }
 

@@ -10,21 +10,32 @@ Prefix (!) - Used to Initiate Command
 `!af, !adfav [query]` - Ads a Video To Favorites List\
 `!f, !fav [query]` - Plays a Favorite YouTube Video
 
-`!pause` - Pauses Currently Playing Video\
-`!r, !res` - Resumes Currently Paused Video\
+`!pa, !pause` - Pauses Currently Playing Video\
+`!r, !resume` - Resumes Currently Paused Video\
 `!s, !skip` - Skip Current Video to Next in Queue
 
 `!h, !help` - Lists All Commands
 
-## Screenshots
-Playing Music in a Voice Channel\
-![play-cmd](./img/sb-playing.png)
+## Usage
+Play Music Using the `!play` Command Followed By What You Want To Play\
+![play-cmd](./img/sb-play.png)
 
-Adding Songs to Queue\
-![enqueue-cmd](./img/sb-enqueue.png)
+Pause and Resume Music Using the `!pause` and `!resume` Commands\
+![pause-resume-cmd](./img/sb-pause-resume.png)
+
+Skip a Song and Play the Next One in Queue Using the `!skip` Command\
+![pause-resume-cmd](./img/sb-skip.png)
+
+Add a Song to Queue Using the `!queue` Command\
+![enqueue-cmd](./img/sb-queue.png)
+
+Add a Song to Favorites Using the `!adfav` Command\
+Add a Favorite Song to Queue Using `!fav` Command\
+![favorites-cmd](./img/sb-favorites.png)
+![favorites-cmd](./img/sb-favorites2.png)
 
 Must Enter a Valid Command\
 ![not-command](./img/sb-notCommand.png)
 
-List of All Commands\
+List of All Commands Using the `!help` Command\
 ![help-command](./img/sb-help.png)

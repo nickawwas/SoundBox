@@ -1,14 +1,14 @@
-import { playing, dispatcher, connected } from './play.js';
+import { playing, disp, connection } from './play.js';
 
-//Resume Paused YouTube Video in Voice Channel
+//Skip Video and Start Playing Next Song in Queue
 const skip = (msg, musicQ) => {
-    dispatcher.destroy();
+    disp.destroy();
     msg.channel.send('Skipped!');
 
     if(musicQ.length < 1) return;
 
     const {title, url, image} = musicQ.shift();
-    playing(msg, connected, title, url, image, musicQ);
+    playing(msg, connection, title, url, image, musicQ);
 }
 
 export default skip;

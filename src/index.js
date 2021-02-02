@@ -43,11 +43,13 @@ client.on('message', async msg => {
         case 'play': 
             play(msg, args, musicQueue);
             break;
+        case 'pa':
         case 'pause':
             pause(msg);
             break;
         case 'r':
         case 'res':
+        case 'resume':
             resume(msg);
             break;
         case 's':
@@ -71,7 +73,7 @@ client.on('message', async msg => {
             command(msg);
             break;
         default: 
-            msg.channel.send("Not a Valid Command. \nEnter !help to list all commands");
+            msg.channel.send("Not a Valid Command. \nEnter `!help` to list all commands");
     }
 });
 
