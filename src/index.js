@@ -13,6 +13,7 @@ import pause from './cmds/pause.js';
 import resume from './cmds/resume.js';
 import skip from './cmds/skip.js';
 import queue from './cmds/queue.js';
+import download from './cmds/download.js';
 import { fav, adfav }from './cmds/favorites.js';
 import command from './cmds/command.js';
 
@@ -71,6 +72,10 @@ client.on('message', async msg => {
         case 'h':
         case 'help':
             command(msg);
+            break;
+        case 'dl':
+        case 'download':
+            download(msg, args);
             break;
         default: 
             msg.channel.send("Not a Valid Command. \nEnter `!help` to list all commands");

@@ -14,6 +14,7 @@ const command = msg => {
                 {name: '`!q`, `!queue`', value: 'Add Video to Queue', inline: true},
                 {name: '`!af`, `!adfav`', value: 'Add Song to Favorites', inline: true},
                 {name: '`!f`, `!fav`', value: 'Plays Songs from Favorites', inline: true},
+                {name: '`!dl`, `!download`', value: 'Convert Video to MP3', inline: true},
                 {name: '`!h`, `!help`', value: 'Lists All Commands', inline: true}
             )
             .setFooter('\nEnjoy SoundBox!');
