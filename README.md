@@ -8,7 +8,7 @@ Prefix (!) - Used to Initiate Command
 `!q, !queue [query]` - Adds Video to Queue
 
 `!af, !adfav [query]` - Ads a Video To Favorites List\
-`!f, !fav [query]` - Plays a Favorite YouTube Video
+`!f, !fav [query]` - Plays a Favorite YouTube Video\
 `!dl, !download [query]` - Converts and Downloads YouTube Video to MP3
 
 `!pa, !pause` - Pauses Currently Playing Video\
