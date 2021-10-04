@@ -14,7 +14,7 @@ import resume from './cmds/resume.js';
 import skip from './cmds/skip.js';
 import queue from './cmds/queue.js';
 import download from './cmds/download.js';
-import { fav, adfav }from './cmds/favorites.js';
+import { fav, adfav } from './cmds/favorites.js';
 import command from './cmds/command.js';
 
 //Instantiate Queue
